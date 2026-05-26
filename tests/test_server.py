@@ -7,11 +7,9 @@ shapes AND the structured error contract that LLMs depend on.
 from __future__ import annotations
 
 import httpx
-import pytest
-
-from air_mcp.server import _get_client, _err, mcp
 from agent_identity_registry import AgentNotFoundError, RateLimitedError
 
+from air_mcp.server import _err, _get_client, mcp
 
 # ----- Reusable response fixtures (mirror real API shapes) ---------------
 

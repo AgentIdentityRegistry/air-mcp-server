@@ -19,7 +19,6 @@ from typing import Any
 
 import httpx
 import pytest
-
 from agent_identity_registry import AIRClient
 
 
